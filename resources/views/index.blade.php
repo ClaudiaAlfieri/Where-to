@@ -1,5 +1,0 @@
-@extends('layout')
-
-<body>
-    
-</body>
