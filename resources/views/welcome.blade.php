@@ -1,5 +1,11 @@
 @extends('layout')
 
-<body>
+<body class="body">
+
+    <p>teste</p>
+    <br>
+    <br>
 
 </body>
+
+@extends('footer')
