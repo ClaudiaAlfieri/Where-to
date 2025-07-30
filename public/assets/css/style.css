@@ -135,12 +135,12 @@ body {
 .howsection {
     color: #0d6093;
     background-color: #138bd5;
-    padding: 50px 20px;
+    padding: 50px 50px;
     min-height: calc(100vh - 80px);
 }
 
 .howsection_content {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
