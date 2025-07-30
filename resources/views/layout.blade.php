@@ -34,12 +34,12 @@
 </head>
 
 <body>
-    <nav
-        class=" nav dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <nav class=" nav dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
-            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="" class="flex items-center space-x-3 rtl:space-x-reverse px-10">
                 <img src="{{ asset('assets/img/logo_sem_texto.png') }}" class="h-16" alt="WhereTo Logo">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white pr-10">Where To?</span>
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white pr-10">Where
+                    To?</span>
             </a>
             <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                 <button data-collapse-toggle="navbar-sticky" type="button"
@@ -54,31 +54,33 @@
                 </button>
             </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul
-                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="/"
-                            class="nav-link-mobile block py-2 px-3 text-white bg-yellow-700 rounded-sm md:bg-transparent md:text-yellow-700 md:p-0 md:dark:text-yellow-500"
-                            aria-current="page">Início</a>
-                    </li>
-                    <li>
-                        <a href="#como-funciona"
-                            class="nav-link-mobile block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Como
-                            Funciona</a>
-                    </li>
-                    <li>
-                        <a href="#sobre"
-                            class="nav-link-mobile block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre</a>
-                    </li>
-                </ul>
+                <div class="navbar-content">
+                    <div class="nav-menu">
+                        <ul class="flex flex-col md:flex-row font-medium">
+                            <li>
+                                <a href="/"
+                                    class="nav-link-mobile block py-2 px-3 text-white bg-yellow-700 rounded-sm md:bg-transparent md:text-yellow-700 md:p-0 md:dark:text-yellow-500"
+                                    aria-current="page">Início</a>
+                            </li>
+                            <li>
+                                <a href="#como-funciona"
+                                    class="nav-link-mobile block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Como
+                                    Funciona</a>
+                            </li>
+                            <li>
+                                <a href="#sobre"
+                                    class="nav-link-mobile block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-yellow-700 md:p-0 md:dark:hover:text-yellow-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Sobre</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                <!-- Cta -->
-                <div class="ml-10 md:ml-10 mobile-cta-container">
-                    <a href="#receita" class="nav-link-mobile">
-                        <button type="button" class="cta-nav-btn w-full md:w-auto">
-                            Vamos a isso!
-                        </button>
-                    </a>
+                    <div class="cta-container">
+                        <a href="#whereto" class="nav-link-mobile">
+                            <button type="button" class="cta-nav-btn w-full md:w-auto">
+                                Vamos a isso!
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -88,7 +90,7 @@
         @yield('content')
     </main>
 
-     @include('footer')
+    @include('footer')
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 
