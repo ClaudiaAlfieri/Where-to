@@ -30,7 +30,7 @@
     </div>
 
     <div class="footer-bottom">
-        <p>&copy; 2025 Where to?. Todos os direitos reservados. | Desenvolvido com ❤️ por Cláudia
+        <p>&copy; 2025 Where to. Todos os direitos reservados. | Desenvolvido com ❤️ por Cláudia
             Alfieri</p>
     </div>
 </footer>
