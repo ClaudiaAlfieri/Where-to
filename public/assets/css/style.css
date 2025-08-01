@@ -182,14 +182,14 @@ body {
 
 /* Form */
 
-.prompt{
+.form{
     padding:50px;
     align-items: center;
     justify-content: center;
 
 }
 
-.form{
+.form-content{
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     padding: 2.5rem;
@@ -198,8 +198,12 @@ body {
     box-shadow: 0 10px 40px #67696a;
     border: 1px solid #138bd5;
     transition: all 0.3s ease;
-    width: 300px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5rem;
 }
+
 
 
 /* Footer */

@@ -31,8 +31,8 @@
         </div>
     </section>
 
-    <section class="prompt">
-        <div class="form">
+    <section class="form">
+        <div class="form-content">
             <div>
                 <h2>Quantas pessoas vão viajar?</h2>
                 <form action="/action_page.php" method="get">
