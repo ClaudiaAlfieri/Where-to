@@ -32,34 +32,48 @@
     </section>
 
     <section class="prompt">
-        <div>
-            <h2>Quantas pessoas vão viajar?</h2>
-            <form action="/action_page.php" method="get">
-                <input type="radio" name="1 pessoa" value="1 pessoa">
-                <label for="1"> 1 pessoa</label><br>
-                <input type="radio" name="2 pessoas" value="2 pessoas">
-                <label for="2"> 2 pessoas</label><br>
-                <input type="radio" name="3 pessoas" value="3 pessoas">
-                <label for="3"> 3 pessoas</label><br>
-                <input type="radio" name="4 pessoas" value="4 pessoas">
-                <label for="4"> 4 pessoas</label><br>
-            </form>
+        <div class="form">
+            <div>
+                <h2>Quantas pessoas vão viajar?</h2>
+                <form action="/action_page.php" method="get">
+                    <input type="radio" name="1 pessoa" value="1 pessoa">
+                    <label for="1"> 1 pessoa</label><br>
+                    <input type="radio" name="2 pessoas" value="2 pessoas">
+                    <label for="2"> 2 pessoas</label><br>
+                    <input type="radio" name="3 pessoas" value="3 pessoas">
+                    <label for="3"> 3 pessoas</label><br>
+                    <input type="radio" name="4 pessoas" value="4 pessoas">
+                    <label for="4"> 4 pessoas</label><br>
+                </form>
+            </div>
+            <div>
+                <h2>Quantos dias a viagem vai durar?</h2>
+                <form action="/action_page.php" method="get">
+                    <input type="radio" name="3 dias" value="3 dias">
+                    <label for="3"> 3 dias</label><br>
+                    <input type="radio" name="5 dias" value="5 dias">
+                    <label for="5"> 5 dias</label><br>
+                    <input type="radio" name="7 dias" value="7 dias">
+                    <label for="7"> 7 dias</label><br>
+                    <input type="radio" name="9 dias" value="9 dias">
+                    <label for="9"> 9 dias</label><br>
+                    <input type="radio" name="12 dias" value="12 dias">
+                    <label for="12"> 12 dias</label><br>
+                </form>
+            </div>
+            <div>
+                <h2>Em qual estação do ano você prefere viajar?</h2>
+                <form action="/action_page.php" method="get">
+                    <input type="radio" name="primavera" value="primavera">
+                    <label for="1">Primavera</label><br>
+                    <input type="radio" name="verão" value="verão">
+                    <label for="2">Verão</label><br>
+                    <input type="radio" name="outono" value="outono">
+                    <label for="3">Outono</label><br>
+                    <input type="radio" name="inverno" value="inverno">
+                    <label for="4">Inverno</label><br>
+                </form>
+            </div>
         </div>
-         <div>
-            <h2>Quantos dias a viagem vai durar?</h2>
-            <form action="/action_page.php" method="get">
-                <input type="radio" name="3 dias" value="3 dias">
-                <label for="3"> 3 dias</label><br>
-                <input type="radio" name="5 dias" value="5 dias">
-                <label for="5"> 5 dias</label><br>
-                <input type="radio" name="7 dias" value="7 dias">
-                <label for="7"> 7 dias</label><br>
-                <input type="radio" name="9 dias" value="9 dias">
-                <label for="9"> 9 dias</label><br>
-                <input type="radio" name="12 dias" value="12 dias">
-                <label for="12"> 12 dias</label><br>
-            </form>
-        </div>
-
     </section>
 @endsection
