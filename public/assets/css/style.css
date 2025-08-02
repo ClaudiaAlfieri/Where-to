@@ -135,7 +135,7 @@ body {
 .howsection {
     color: #0d6093;
     background-color: #138bd5;
-    padding: 50px 50px;
+    padding: 100px 100px;
     min-height: calc(100vh - 80px);
 }
 
@@ -147,6 +147,7 @@ body {
     gap: 3rem;
     align-items: start;
     width: 100%;
+    padding-top:20px;
 }
 
 .howsection-card {
@@ -179,8 +180,7 @@ body {
     line-height: 1.6;
 }
 
-
-/* Form */
+/* Form Section */
 
 .form{
     padding:50px;
@@ -190,18 +190,30 @@ body {
 }
 
 .form-content{
+    /* background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px); */
+    padding: 2.5rem;
+    /* border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 40px #67696a;
+    border: 1px solid #138bd5;
+    transition: all 0.3s ease; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5rem;
+}
+
+.form-card {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(20px);
     padding: 2.5rem;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 10px 40px #67696a;
+    box-shadow: 0 10px 40px rgba(7, 52, 80, 0.3);
     border: 1px solid #138bd5;
     transition: all 0.3s ease;
-    width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:5rem;
+    width: 100%;
 }
 
 

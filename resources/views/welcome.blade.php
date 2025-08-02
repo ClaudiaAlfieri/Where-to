@@ -33,7 +33,7 @@
 
     <section class="form">
         <div class="form-content">
-            <div>
+            <div class="form-card">
                 <h2>Quantas pessoas vão viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <input type="radio" name="1 pessoa" value="1 pessoa">
@@ -46,7 +46,7 @@
                     <label for="4"> 4 pessoas</label><br>
                 </form>
             </div>
-            <div>
+             <div class="form-card">
                 <h2>Quantos dias a viagem vai durar?</h2>
                 <form action="/action_page.php" method="get">
                     <input type="radio" name="3 dias" value="3 dias">
@@ -61,7 +61,7 @@
                     <label for="12"> 12 dias</label><br>
                 </form>
             </div>
-            <div>
+           <div class="form-card">
                 <h2>Em qual estação do ano você prefere viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <input type="radio" name="primavera" value="primavera">
