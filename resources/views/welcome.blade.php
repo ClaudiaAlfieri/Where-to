@@ -14,17 +14,17 @@
     <section class="howsection">
         <div class="howsection_content">
             <div class="howsection-card">
-                <h1>🔍 1º passo — Conte pra gente como é a sua viagem ideal</h1>
+                <h2>🔍 1º passo — Conte pra gente como é a sua viagem ideal</h2>
                 <p>Fale sobre o destino, datas, estilo de viagem, quem vai com você e o que não pode faltar na experiência.
                 </p>
             </div>
             <div class="howsection-card">
-                <h1>🧩 2º passo — Deixe a IA montar tudo pra você</h1>
+                <h2>🧩 2º passo — Deixe a IA montar tudo pra você</h2>
                 <p>Com base nas suas preferências, criamos um roteiro completo com hospedagem, passeios, restaurantes e
                     dicas imperdíveis.</p>
             </div>
             <div class="howsection-card">
-                <h1>📅 3º passo — Receba um roteiro sob medida, pronto pra usar</h1>
+                <h2>📅 3º passo — Receba um roteiro sob medida, pronto pra usar</h2>
                 <p>Visualize e leve com você um plano de viagem personalizado, prático e feito especialmente para o seu
                     jeito de viajar.</p>
             </div>
@@ -37,19 +37,19 @@
                 <h2>👨🏻‍👩🏻‍👦🏻 Quantas pessoas vão viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <div class="option-row">
-                        <input type="radio" name="1 pessoa" value="1 pessoa">
+                        <input type="radio" id="1pessoa" name="pessoas" value="1 pessoa">
                         <label for="1"> 1 pessoa</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="2 pessoas" value="2 pessoas">
+                        <input type="radio" id="2pessoas" name="pessoas" value="2 pessoas">
                         <label for="2"> 2 pessoas</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="3 pessoas" value="3 pessoas">
+                        <input type="radio" id="3pessoas" name="pessoas" value="3 pessoas">
                         <label for="3"> 3 pessoas</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="4 pessoas" value="4 pessoas">
+                        <input type="radio" id="4pessoas" name="pessoas" value="4 pessoas">
                         <label for="4"> 4 pessoas</label>
                     </div>
                 </form>
@@ -57,10 +57,6 @@
             <div class="form-card">
                 <h2>📅 Quantos dias a viagem vai durar?</h2>
                 <form action="/action_page.php" method="get">
-                    <div class="option-row">
-                        <input type="radio" id="3dias" name="dias" value="3 dias">
-                        <label for="3dias">3 dias</label>
-                    </div>
                     <div class="option-row">
                         <input type="radio" id="5dias" name="dias" value="5 dias">
                         <label for="5dias">5 dias</label>
@@ -83,19 +79,19 @@
                 <h2>🏖️ Em qual estação do ano você prefere viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <div class="option-row">
-                        <input type="radio" name="primavera" value="primavera">
+                        <input type="radio" id="primavera" name="estação" value="primavera">
                         <label for="1">Primavera</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="verão" value="verão">
+                        <input type="radio" id="verão" name="estação" value="verão">
                         <label for="2">Verão</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="outono" value="outono">
+                        <input type="radio" id="outono" name="estação" value="outono">
                         <label for="3">Outono</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" name="inverno" value="inverno">
+                        <input type="radio" id="inverno" name="estação" value="inverno">
                         <label for="4">Inverno</label>
                     </div>
                 </form>
