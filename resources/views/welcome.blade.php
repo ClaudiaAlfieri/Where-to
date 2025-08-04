@@ -13,6 +13,7 @@
 
     <section class="howsection">
         <div class="howsection_content">
+            <h1>Como funciona?</h1>
             <div class="howsection-card">
                 <h2>🔍 1º passo — Conte pra gente como é a sua viagem ideal</h2>
                 <p>Fale sobre o destino, datas, estilo de viagem, quem vai com você e o que não pode faltar na experiência.
@@ -31,32 +32,82 @@
         </div>
     </section>
 
-    <section class="form">
-        <div class="form-content">
+    <section class="formsection">
+        <h1>Como é sua viagem ideal?</h1>
+        <div class="formsection-content">
             <div class="form-card">
                 <h2>👨🏻‍👩🏻‍👦🏻 Quantas pessoas vão viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <div class="option-row">
                         <input type="radio" id="1pessoa" name="pessoas" value="1 pessoa">
-                        <label for="1"> 1 pessoa</label>
+                        <label for="1pessoa">1 pessoa</label>
                     </div>
                     <div class="option-row">
                         <input type="radio" id="2pessoas" name="pessoas" value="2 pessoas">
-                        <label for="2"> 2 pessoas</label>
+                        <label for="2pessoas">2 pessoas</label>
                     </div>
                     <div class="option-row">
                         <input type="radio" id="3pessoas" name="pessoas" value="3 pessoas">
-                        <label for="3"> 3 pessoas</label>
+                        <label for="3pessoas">3 pessoas</label>
                     </div>
                     <div class="option-row">
                         <input type="radio" id="4pessoas" name="pessoas" value="4 pessoas">
-                        <label for="4"> 4 pessoas</label>
+                        <label for="4pessoas">4 pessoas</label>
                     </div>
                 </form>
             </div>
+
+            <div class="form-card">
+                <h2>👧🏻 Quantos são crianças?<br>(3-12 anos)</h2>
+                <form action="/action_page.php" method="get">
+                    <div class="option-row">
+                        <input type="radio" id="0criança" name="crianças" value="0 criança">
+                        <label for="0criança">Nenhuma criança</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="1criança" name="crianças" value="1 criança">
+                        <label for="1criança">1 crianças</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="2crianças" name="crianças" value="2 crianças">
+                        <label for="2crianças">2 crianças</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="3crianças" name="crianças" value="3 crianças">
+                        <label for="3crianças">2 crianças</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-card">
+                <h2>🏖️ Em qual estação do ano você prefere viajar?</h2>
+                <form action="/action_page.php" method="get">
+                    <div class="option-row">
+                        <input type="radio" id="primavera" name="estacao" value="primavera">
+                        <label for="primavera">Primavera</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="verao" name="estacao" value="verão">
+                        <label for="verao">Verão</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="outono" name="estacao" value="outono">
+                        <label for="outono">Outono</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="inverno" name="estacao" value="inverno">
+                        <label for="inverno">Inverno</label>
+                    </div>
+                </form>
+            </div>
+
             <div class="form-card">
                 <h2>📅 Quantos dias a viagem vai durar?</h2>
                 <form action="/action_page.php" method="get">
+                    <div class="option-row">
+                        <input type="radio" id="3dias" name="dias" value="3 dias">
+                        <label for="3dias">3 dias</label>
+                    </div>
                     <div class="option-row">
                         <input type="radio" id="5dias" name="dias" value="5 dias">
                         <label for="5dias">5 dias</label>
@@ -75,24 +126,56 @@
                     </div>
                 </form>
             </div>
+
             <div class="form-card">
-                <h2>🏖️ Em qual estação do ano você prefere viajar?</h2>
+                <h2>🌎 Para qual continente você quer viajar?</h2>
                 <form action="/action_page.php" method="get">
                     <div class="option-row">
-                        <input type="radio" id="primavera" name="estação" value="primavera">
-                        <label for="1">Primavera</label>
+                        <input type="radio" id="africa" name="continente" value="africa">
+                        <label for="africa">África</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="verão" name="estação" value="verão">
-                        <label for="2">Verão</label>
+                        <input type="radio" id="america" name="continente" value="america">
+                        <label for="america">América</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="outono" name="estação" value="outono">
-                        <label for="3">Outono</label>
+                        <input type="radio" id="asia" name="continente" value="asia">
+                        <label for="asia">Ásia</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="inverno" name="estação" value="inverno">
-                        <label for="4">Inverno</label>
+                        <input type="radio" id="europa" name="continente" value="europa">
+                        <label for="europa">Europa</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="oceania" name="continente" value="oceania">
+                        <label for="oceania">Oceania</label>
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="form-card">
+                <h2>🎡 Quais desses são do seu interesse?</h2>
+                <form action="/action_page.php" method="get">
+                    <div class="option-row">
+                        <input type="radio" id="gastronomia" name="gastronomia" value="gastronomia">
+                        <label for="gastronomia">Gastronomia</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="museus" name="museus" value="museus">
+                        <label for="museus">Museus</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="praia" name="praia" value="praia">
+                        <label for="praia">Praia</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="aventura" name="aventura" value="aventura">
+                        <label for="aventura">Aventura</label>
+                    </div>
+                    <div class="option-row">
+                        <input type="radio" id="relaxamento" name="relaxamento" value="relaxamento">
+                        <label for="relaxamento">Relaxamento</label>
                     </div>
                 </form>
             </div>

@@ -133,10 +133,18 @@ body {
 /* How to Section */
 
 .howsection {
-    color: #0d6093;
+    color: #ffffff;
     background-color: #138bd5;
-    padding: 100px 100px;
+    padding-top: 50px;
+    padding-bottom: 120px;
     min-height: calc(100vh - 80px);
+}
+
+.howsection h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 .howsection_content {
@@ -181,13 +189,19 @@ body {
 }
 
 /* Form Section */
-.form {
-    padding: 50px;
-    align-items: center;
-    justify-content: center;
+.formsection {
+    padding: 100px 50px;
+    text-align: center;
 }
 
-.form-content {
+.formsection h1 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.formsection-content {
     padding: 2.5rem;
     width: 100%;
     display: grid;
@@ -211,6 +225,13 @@ body {
     text-align: left;
     display: inline-block;
     margin-top: 20px;
+}
+
+.form-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: black;
 }
 
 .form-card .option-row {
