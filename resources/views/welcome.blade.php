@@ -4,7 +4,7 @@
     <section class="homesection">
         <div>
             <h1>Sua viagem, <br> do seu jeito</h1>
-            <p>Descubra roteiros únicos com passeios, restaurantes e dicas feitos sob medida para você</p>
+            <p>Descubra roteiros únicos com passeios, restaurantes e dicas feitos sob medida para você.</p>
         </div>
         <div class="homesection-image">
             <img src="assets/img/logo_com_texto.png" alt="WhereTo">
@@ -16,7 +16,8 @@
             <h1>Como funciona?</h1>
             <div class="howsection-card">
                 <h2>🔍 1º passo — Conte pra gente como é a sua viagem ideal</h2>
-                <p>Escolha a estação do ano, o continente que quer explorar, a duração da viagem e os tipos de experiência que mais combinam com você.</p>
+                <p>Escolha a estação do ano, o continente que quer explorar, a duração da viagem e os tipos de experiência
+                    que mais combinam com você.</p>
             </div>
             <div class="howsection-card">
                 <h2>🧩 2º passo — Deixe a IA montar tudo pra você</h2>
@@ -34,30 +35,31 @@
     <section class="aboutsection">
         <div class="aboutsection_content">
             <h1>Sobre nós</h1>
-            <div class="">
-                <p>Nem sempre é fácil escolher o destino ideal e planejar cada detalhe pode ser ainda mais difícil.
-                    Pensando nisso, criamos uma nova forma de viajar: simples, personalizada e surpreendente.
+            <div class="about-card">
+                <p class="text-center">Nem sempre é fácil escolher o destino ideal e planejar cada detalhe pode ser ainda mais difícil. <br> Pensando
+                    nisso, criamos uma nova forma de viajar: simples, personalizada e surpreendente.</p>
 
-                    Aqui, você não precisa saber **para onde ir**. Basta nos contar **o que você gosta**:
+                <p class="intro-text">Aqui, você não precisa saber para onde ir. Basta nos contar o que você gosta:</p>
+                <ul>
+                    <li>Qual estação do ano prefere?</li>
+                    <li>Quanto tempo tem disponível?</li>
+                    <li>Que tipo de experiência busca? (Gastronomia, museus, praia, aventura, relaxamento...)</li>
+                    <li>Em qual continente gostaria de explorar?</li>
+                </ul>
 
-                    * Qual estação do ano prefere?
-                    * Quanto tempo tem disponível?
-                    * Que tipo de experiência busca? (Gastronomia, museus, praia, aventura, relaxamento...)
-                    * Em qual continente gostaria de explorar?
-
-                    Com base nas suas escolhas, nosso sistema cria **um roteiro completo e sob medida**, com:
-
-                    * Destinos que combinam com seu estilo
-                    * Passeios inesquecíveis
-                    * Restaurantes selecionados
-                    * Dicas locais para aproveitar ao máximo cada momento
-
-                    Esqueça os roteiros prontos e genéricos. Cada viagem criada aqui é única — pensada especialmente para
-                    você.
-
-                    **Descubra lugares incríveis, sem precisar procurá-los.**
-
+                <p class="intro-text">Com base nas suas escolhas, nosso sistema cria um roteiro completo e sob medida, com:
                 </p>
+                <ul>
+                    <li>Destinos que combinam com seu estilo</li>
+                    <li>Passeios inesquecíveis</li>
+                    <li>Restaurantes selecionados</li>
+                    <li>Dicas locais para aproveitar ao máximo cada momento</li>
+                </ul>
+
+                <p>Esqueça os roteiros prontos e genéricos. Cada viagem criada aqui é única, pensada especialmente para
+                    você.</p>
+
+                <p>Descubra lugares incríveis, sem precisar procurá-los.</p>
             </div>
         </div>
     </section>
