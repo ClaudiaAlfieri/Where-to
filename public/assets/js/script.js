@@ -21,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
 // Função principal
 async function criarRoteiro() {
     // Pegar dados do formulário
@@ -36,8 +35,16 @@ async function criarRoteiro() {
     // Mostrar loading no botão
     const botao = document.querySelector('.btn-generate');
     const textoOriginal = botao.textContent;
-    botao.textContent = 'Criando roteiro...';
+    botao.innerHTML = 'Criando Roteiro<span class="dots">...</span>';
     botao.disabled = true;
+
+    // Animação das bolinhas
+    if (!document.querySelector('#dots-style')) {
+        const style = document.createElement('style');
+        style.id = 'dots-style';
+        style.textContent = '.dots { animation: blink 1s infinite; } @keyframes blink { 0%, 50% { opacity: 1; } 51%, 100% { opacity: 0; } }';
+        document.head.appendChild(style);
+    }
 
     try {
         // Enviar para o Laravel
