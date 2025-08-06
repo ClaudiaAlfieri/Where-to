@@ -36,7 +36,8 @@
         <div class="aboutsection_content">
             <h1>Sobre nós</h1>
             <div class="about-card">
-                <p class="text-center">Nem sempre é fácil escolher o destino ideal e planejar cada detalhe pode ser ainda mais difícil. <br> Pensando
+                <p class="text-center">Nem sempre é fácil escolher o destino ideal e planejar cada detalhe pode ser ainda
+                    mais difícil. <br> Pensando
                     nisso, criamos uma nova forma de viajar: simples, personalizada e surpreendente.</p>
 
                 <p class="intro-text">Aqui, você não precisa saber para onde ir. Basta nos contar o que você gosta:</p>
@@ -190,27 +191,30 @@
                 <h2>🎡 Quais desses são do seu interesse?</h2>
                 <form action="/action_page.php" method="get">
                     <div class="option-row">
-                        <input type="radio" id="gastronomia" name="gastronomia" value="gastronomia">
+                        <input type="checkbox" id="gastronomia" name="gastronomia" value="gastronomia">
                         <label for="gastronomia">Gastronomia</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="museus" name="museus" value="museus">
+                        <input type="checkbox" id="museus" name="museus" value="museus">
                         <label for="museus">Museus</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="praia" name="praia" value="praia">
+                        <input type="checkbox" id="praia" name="praia" value="praia">
                         <label for="praia">Praia</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="aventura" name="aventura" value="aventura">
+                        <input type="checkbox" id="aventura" name="aventura" value="aventura">
                         <label for="aventura">Aventura</label>
                     </div>
                     <div class="option-row">
-                        <input type="radio" id="relaxamento" name="relaxamento" value="relaxamento">
+                        <input type="checkbox" id="relaxamento" name="relaxamento" value="relaxamento">
                         <label for="relaxamento">Relaxamento</label>
                     </div>
                 </form>
             </div>
+        </div>
+        <div class="btn-container">
+            <button class="btn-generate">Where to</button>
         </div>
     </section>
 @endsection

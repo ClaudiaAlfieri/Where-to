@@ -359,8 +359,37 @@ body {
     content: '';
     width: 8px;
     height: 8px;
-    background: white;
+    background: #138bd5;
     border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-card input[type="checkbox"]  {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #138bd5;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s ease;
+    margin: 0;
+}
+
+.form-card input[type="checkbox"] :checked {
+    background: #138bd5;
+    border-color: #138bd5;
+}
+
+.form-card input[type="checkbox"] :checked:after  {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #138bd5;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -372,6 +401,40 @@ body {
     font-size: 16px;
     color: #333;
     margin: 0;
+}
+
+/* Botão generate */
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.btn-generate{
+    background: linear-gradient(135deg, #073450, #0d6093);
+    color: white;
+    border: none;
+    padding: 12px 60px;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    box-shadow: 0 20px 40px rgba(5, 36, 55, 0.3);
+}
+
+.btn-generate:hover {
+    background: linear-gradient(135deg, #0d6093, #1e668f);
 }
 
 /* Footer */
