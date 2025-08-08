@@ -11,7 +11,7 @@
         </div>
     </section>
 
-    <section class="howsection">
+    <section class="howsection"  id="como-funciona">
         <div class="howsection_content">
             <h1>Como funciona?</h1>
             <div class="howsection-card">
@@ -32,7 +32,7 @@
         </div>
     </section>
 
-    <section class="aboutsection">
+    <section class="aboutsection"  id="sobre">
         <div class="aboutsection_content">
             <h1>Sobre nós</h1>
             <div class="about-card">
@@ -65,7 +65,7 @@
         </div>
     </section>
 
-    <section class="formsection">
+    <section class="formsection" id="roteiro">
         <h1>Como é sua viagem ideal?</h1>
         <div class="formsection-content">
             <div class="form-card">

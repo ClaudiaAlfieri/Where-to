@@ -79,6 +79,13 @@ body {
     font-family: 'roboto', sans-serif;
 }
 
+/* Scroll anchors */
+#como-funciona,
+#roteiro,
+#sobre {
+    scroll-margin-top: 80px;
+}
+
 /* Home Section */
 
 .homesection {

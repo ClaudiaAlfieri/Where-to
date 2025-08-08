@@ -75,7 +75,7 @@
                     </div>
 
                     <div class="cta-container">
-                        <a href="#whereto" class="nav-link-mobile">
+                        <a href="#roteiro" class="nav-link-mobile">
                             <button type="button" class="cta-nav-btn w-full md:w-auto">
                                 Vamos a isso!
                             </button>
